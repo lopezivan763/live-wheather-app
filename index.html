@@ -20,49 +20,48 @@
   </head>
 
   <body>
-    <header id="header"> -- Live Wheather -- </header>
+    <header id="header">-- Live Wheather --</header>
 
     <main>
-    <div>
-      <form>
-        <div class="search-bar" id="search-bar">
-          <label id="search-wheater" class="form-label"
-            >Search for a city:</label
-          >
-          <input
-            type="text"
-            class="form-control"
-            id="city-input"
-            aria-describedby="city-input"
-            placeholder="Chicago"
-          />
+      <div>
+        <form>
+          <div class="search-bar" id="search-bar">
+            <label id="search-wheater" class="form-label"
+              >Search for a city:</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="city-input"
+              aria-describedby="city-input"
+              placeholder="Chicago"
+            />
+          </div>
+          <button type="submit" class="btn btn-primary" id="submit-btn">
+            Submit
+          </button>
+        </form>
+
+        <div>
+          <ul class="saved-results" id="saved-results"></ul>
         </div>
-        <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
-      </form>
+      </div>
 
       <div>
-        <ul class="saved-results" id="saved-results">
-        </ul>
-      </div>
-    </div>
-   
-<div>
-    <div class="display-result" id="display-result">   
-        <div class="d-flex align-items-center">
-        <strong role="status" id="loading-icon">Loading...</strong>
+        <div class="display-result" id="display-result">
+          <div class="d-flex align-items-center">
+            <strong role="status" id="loading-icon">Loading...</strong>
+          </div>
         </div>
-    </div>
-    
-    
-    <h1 class="forecast-title">5-Day Forecast:</h1>
-    <div class="five-day-forecast" id="five-day-forecast">
-      <div class="d-flex align-items-center">
-        <strong role="status" id="loading-icon2">Loading...</strong>
-        </div>
-    </div>
-</div>
 
-</main>
+        <h1 class="forecast-title">5-Day Forecast:</h1>
+        <div class="five-day-forecast" id="five-day-forecast">
+          <div class="d-flex align-items-center">
+            <strong role="status" id="loading-icon2">Loading...</strong>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
   <script src="assets/js/app.js"></script>
 </html>
