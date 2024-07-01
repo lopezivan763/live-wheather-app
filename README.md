@@ -73,5 +73,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 [Live Weather App](https://lopezivan763.github.io/live-wheather-app/)
 
 ## Screenshot
-![Screenshot](assets/Screenshot.png)
 <img width="1512" alt="Screenshot" src="https://github.com/lopezivan763/live-wheather-app/assets/84734876/7b89c289-c9d0-4668-9bad-3907ae6f7e08">
